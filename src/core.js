@@ -123,7 +123,7 @@ export const Q3 = Object.assign(x => B(T)(x), {
   combinator: 'BT',
 })
 
-export const Q4 = Object.assign(x => FStar(B)(x), {
+export const Q4 = Object.assign(x => F_(B)(x), {
   bird: 'Quacky Bird',
   combinator: 'F*B',
 })
@@ -223,4 +223,4 @@ export const V__ = Object.assign(x => B(V_)(x), {
   combinator: 'BV*',
 })
 
-console.log(M(I).bird)
+// console.log(M(I).bird)
